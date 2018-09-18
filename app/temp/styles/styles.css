@@ -1126,7 +1126,9 @@ Instead edit gulp/templates/sprite */
 @media (min-width: 800px) {
 
 .site-header__btn-container {	
-		float: right
+		float: right;
+		padding-right: 90px;
+		padding-bottom: 10px
 	}
 	}
 
@@ -1335,6 +1337,20 @@ Instead edit gulp/templates/sprite */
 			background-color: transparent
 	}
 	}
+
+.reveal-item {
+	opacity: 0;
+	-webkit-transition: all 1.5s ease-out;
+	transition: all 1.5s ease-out;
+	-webkit-transform: scale(1.15);
+	        transform: scale(1.15);
+}
+
+.reveal-item--is-visible {
+		opacity: 1;
+		-webkit-transform: scale(1);
+		        transform: scale(1);
+	} 
 
 
 

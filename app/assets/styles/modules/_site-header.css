@@ -16,6 +16,8 @@
 	&__btn-container {
 		@mixin atMedium	{	
 		float: right;
+		padding-right: 90px;
+		padding-bottom: 10px;
 		}
 	}
 	
