@@ -26,13 +26,13 @@
 		color: #FFF;
 	}
 	
-	&--services {
+	&--testimonials {
 		background-color: #e0e6ef;
 		
 		@mixin atLarge {
 			&.lazyloaded {}
-				background: url('../../assets/images/services-bg.jpg') top center no-repeat;
-				background-size: cover; 
+				background: url('../../assets/images/testimonial-bg.jpg') top center no-repeat;
+				background-size: cover;  
 		}
 	}
 }

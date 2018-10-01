@@ -665,17 +665,17 @@ a {
 		color: #FFF;
 	}
 
-.page-section--services {
+.page-section--testimonials {
 		background-color: #e0e6ef;
 	}
 
 @media (min-width: 1010px) {
 
-.page-section--services {
-				background: url('../../assets/images/services-bg.jpg') top center no-repeat;
+.page-section--testimonials {
+				background: url('../../assets/images/testimonial-bg.jpg') top center no-repeat;
 				background-size: cover
 	}
-			.page-section--services.lazyloaded {}
+			.page-section--testimonials.lazyloaded {}
 	}
 
 .headline {
@@ -970,57 +970,6 @@ a {
 	}
 	}
 
-.services {
-	background-color: rgba(255, 255, 255, .8); 
-	padding: 0 18px 1px 18px;
-	margin-bottom: 98px;
-	
-			
-}
-
-@media (min-width: 1010px) {
-
-.services {
-		padding: 0 1.8125rem 1px 1.8125rem;
-		margin-bottom: 0
-	
-			
-}
-	}
-
-.services--last {
-		margin-bottom: 0;
-		
-		
-	}
-
-.services__photo {
-		border-radius: 50%; 
-		overflow: hidden;
-		width: 160px;
-		height: 160px;
-		margin: 0 auto -80px auto;
-		position: relative;
-		top: -80px;
-		border: 6px solid rgba(255, 255, 255, .8);
-	}
-
-.services__title {
-		color: #2f5571;
-		text-align: center;
-		font-size: 1.5rem;
-		font-weight: 500;
-		margin: 0;
-	}
-
-.services__subtitle {
-		color: #d59541;
-		text-align: center;
-		font-weight: 400;
-		font-size: 1.5rem;
-		margin: .25rem 1rem 1rem;
-	}
-
 /* Do not edit modules/_sprite directly as it is generated automatically by gulp. 
 Instead edit gulp/templates/sprite */
 
@@ -1109,6 +1058,8 @@ Instead edit gulp/templates/sprite */
 	color: white;
 	padding: .5rem 0;
 	text-align: center;
+	position: absolute;
+	width: 100%;
 }
 
 .site-footer__text {
@@ -1477,6 +1428,177 @@ Instead edit gulp/templates/sprite */
 			-webkit-transform: translate(-50%, -50%);
 			        transform: translate(-50%, -50%);
 		}
+
+.testimonials {
+	background-color: rgba(255, 255, 255, .8); 
+	padding: 0 18px 1px 18px;
+	margin-bottom: 98px;
+}
+
+@media (min-width: 1010px) {
+
+.testimonials {
+		padding: 0 1.8125rem 1px 1.8125rem;
+		margin-bottom: 0
+}
+	}
+
+.testimonials--last {
+		margin-bottom: 0;
+	}
+
+.testimonials__photo {
+		border-radius: 50%; 
+		overflow: hidden;
+		width: 160px;
+		height: 160px;
+		margin: 0 auto -80px auto;
+		position: relative;
+		top: -80px;
+		border: 6px solid rgba(255, 255, 255, .8);
+	}
+
+.testimonials__title {
+		color: #2f5571;
+		text-align: center;
+		font-size: 1.5rem;
+		font-weight: 500;
+		margin: 0;
+	}
+
+.testimonials__subtitle {
+		color: #d59541;
+		text-align: center;
+		font-weight: 400;
+		font-size: .9375rem;
+		margin: .25rem 1rem 1rem;
+	}
+
+.pricing-section {
+	padding: 1.2rem 0;
+	
+}
+
+@media (min-width: 800px) {
+
+.pricing-section {
+		padding: 4.5rem 0
+	
+}
+	}
+
+.pricing-section__table { 
+		background-color:#ffffff; 
+		height:325px;
+		width:100%;
+		margin-top:50px;
+		-webkit-column-count: 3;
+		        column-count: 3;
+		-webkit-column-gap: 40px;
+		        column-gap: 40px;
+		margin-bottom: 175px; 
+	
+	}
+
+.pricing-section__table-top {
+		background-color:#2f5571;
+		height:75px;
+	}
+
+.pricing-section__table-top h1 {
+		color: #FFF;	
+		padding-top:20px;
+		margin-bottom: 30px;
+		
+	}
+
+.pricing-section__circle {
+		width:70px;
+		height:70px;
+		border-radius:60px;
+		font-size:20px;
+		color:black;
+		line-height:60px;
+		text-align:center;
+		background:#d59541;
+		margin-left:70px;
+		margin-top:10px;
+		padding: 5px 0 5px 0;
+		
+			
+	}
+
+.pricing-section ul li {
+		float:left;
+		width:199px;
+		text-align:center;
+		margin: 30px;
+		margin-top: -30px;
+		list-style-type: none;
+		padding: 0 -90px 0 -90px;
+	}
+
+.pricing-section__table-bottom {
+		margin-top:90px;
+}
+
+.pricing-section__table-bottom p {
+		font-size:1rem;
+		font-family: 'Roboto', sans-serif;
+		padding: 5px;
+  }
+
+.pricing-section__table-bottom p span {
+		font-weight: 500; 
+		}
+
+.flexcontainer {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	
+}
+
+.pricing-title {
+	color: #2f5571;
+	text-align: center;
+	font-size: 2.55rem;
+	font-weight: 300;
+	margin: 0;
+}
+
+@media (min-width: 530px) {
+
+.pricing-title {
+		font-size: 3.75rem
+}
+	}
+
+.pricing-title__icon {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: .6rem;
+	}
+
+@media (min-width: 530px) {
+
+.pricing-title__icon {
+			position: relative;
+			top: 8px;
+			margin-right: .5rem;
+			margin-left: 0;
+			margin-bottom: 0;
+			display: inline-block
+	}
+	}
 
 
 
