@@ -15,7 +15,7 @@
 	}
 	
 	&--gutters-small {
-		margin-right: -45px;
+		margin-right: -45px; 
 	}
 	
 	&--gutters > div {
@@ -69,7 +69,8 @@
 	
 	&__large-4 {
 		float: left;
-		width: 33.33%;
+		width: 33.33%; 
+		
 	}
 	
 	&__b-margin-until-large {
