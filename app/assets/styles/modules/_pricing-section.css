@@ -5,6 +5,13 @@
 		padding: 4.5rem 0; 
 	}
 	
+	&--padding-at-small {
+		@mixin atLarge {
+			margin:95px; 
+		}	
+				
+	}
+	
 		
 	&__table { 
 		background-color:#ffffff; 
@@ -12,7 +19,7 @@
 		width:100%;
 		margin-top:50px;
 		margin-bottom: 175px; 
-			
+		
 	}
 	
 	
@@ -50,6 +57,7 @@
 		margin: 30px;
 		margin-top: -30px;
 		list-style-type: none;
+		align-content: center;
 		
 	}
 	

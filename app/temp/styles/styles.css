@@ -1507,13 +1507,21 @@ Instead edit gulp/templates/sprite */
 }
 	}
 
+@media (min-width: 1010px) {
+
+.pricing-section--padding-at-small {
+			margin:95px	
+				
+	}
+	}
+
 .pricing-section__table { 
 		background-color:#ffffff; 
 		height:325px;
 		width:100%;
 		margin-top:50px;
 		margin-bottom: 175px; 
-			
+		
 	}
 
 .pricing-section__table-top {
@@ -1550,6 +1558,8 @@ Instead edit gulp/templates/sprite */
 		margin: 30px;
 		margin-top: -30px;
 		list-style-type: none;
+		-ms-flex-line-pack: center;
+		    align-content: center;
 		
 	}
 
