@@ -5,6 +5,7 @@
 		padding: 4.5rem 0; 
 	}
 	
+		
 	&__table { 
 		background-color:#ffffff; 
 		height:325px;
@@ -63,7 +64,8 @@
 		}
   }
 }
-	
+
+		
 }
 
 .flexcontainer {
