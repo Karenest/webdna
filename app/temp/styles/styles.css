@@ -1492,12 +1492,8 @@ Instead edit gulp/templates/sprite */
 		height:325px;
 		width:100%;
 		margin-top:50px;
-		-webkit-column-count: 3;
-		        column-count: 3;
-		-webkit-column-gap: 40px;
-		        column-gap: 40px;
 		margin-bottom: 175px; 
-	
+			
 	}
 
 .pricing-section__table-top {
@@ -1521,25 +1517,24 @@ Instead edit gulp/templates/sprite */
 		line-height:60px;
 		text-align:center;
 		background:#d59541;
-		margin-left:70px;
+		margin-left:90px;
 		margin-top:10px;
 		padding: 5px 0 5px 0;
-		
-			
+				
 	}
 
 .pricing-section ul li {
 		float:left;
-		width:199px;
+		width:250px;
 		text-align:center;
 		margin: 30px;
 		margin-top: -30px;
 		list-style-type: none;
-		padding: 0 -90px 0 -90px;
+		
 	}
 
 .pricing-section__table-bottom {
-		margin-top:90px;
+		margin-top:100px;
 }
 
 .pricing-section__table-bottom p {
