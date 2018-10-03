@@ -16,6 +16,7 @@
 		}
 	}
 	
+	
 	&__title {
 		font-size: 1.6rem;
 		font-weight: 300;
@@ -29,4 +30,9 @@
 			text-align: left;
 		}
 	}
+	
+	&--code {
+		margin-left: -15px;
+	}
 }
+

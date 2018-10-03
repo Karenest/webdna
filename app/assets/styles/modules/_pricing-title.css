@@ -26,3 +26,8 @@
 		}
 	}
 }
+
+.fa {
+	color: $mainOrange;
+	margin-right: 15px;
+}
