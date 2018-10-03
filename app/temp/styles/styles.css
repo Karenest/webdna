@@ -1494,7 +1494,6 @@ Instead edit gulp/templates/sprite */
 
 .pricing-section {
 	padding: 1.2rem 0;
-
 		
 }
 
@@ -1502,7 +1501,6 @@ Instead edit gulp/templates/sprite */
 
 .pricing-section {
 		padding: 4.5rem 0
-
 		
 }
 	}
@@ -1576,6 +1574,12 @@ Instead edit gulp/templates/sprite */
 .pricing-section__table-bottom p span {
 		font-weight: 500; 
 		}
+
+.pricing-section--footer {
+		text-align: center;
+		margin-top: -100px;
+		margin-bottom: -10px;
+	}
 
 .flexcontainer {
 	display: -webkit-box;
